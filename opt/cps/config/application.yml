@@ -1,0 +1,5 @@
+- name: Replicate configuration file
+  hosts: all
+  become: true
+  tasks:
+    - name: Copying application yaml file V1
